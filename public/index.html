@@ -4,15 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--- Google Fonts --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&family=Open+Sans:ital@0;1&display=swap"
+        rel="stylesheet">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <link href="./css/styles.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="bg-indigo-600 p-3 rounded flex justify-center items-center">
-        <h1 class="text-3xl font-bold text-white">
-            Hello world..!
-        </h1>
-    </div>
+    <!-- Header Section -->
+    <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+        <!--Header Container-->
+        <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
+            <!--Logo-->
+            <a href="#"
+                class="pl-4 md:pl-0text-4xl lg:text-6xl font-bold text-transparent bg-gradient-to-r bg-clip-text from-gega-red to-gega-grey">Gega</a>
+
+            <!--Mobile Menu-->
+            <div class="block md:hidden items-center space-x-4 pr-4">
+                <button class="text-gega-grey">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <button class="text-gega-grey">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <!--Navigation-->
+            <nav class="hidden md:flex justify-between flex-1">
+                <!--Menu-->
+                <div class="flex items-center lg:text-lg space-x-4 lg:space-x-4">
+                    <a href="#" class="hover:text-gega-melon transition duration-500">movies</a>
+                    <a href="#" class="hover:text-gega-melon transition duration-500">celebrities</a>
+                    <a href="#" class="hover:text-gega-melon transition duration-500">blog</a>
+                    <a href="#" class="hover:text-gega-melon transition duration-500">news</a>
+                    <a href="#" class="hover:text-gega-melon transition duration-500">about</a>
+                </div>
+                <!--Login Area-->
+                <div class="flex items-center space-x-4 lg:space-x-8">
+                    <form>
+                        <div class="group border-r px-4 mx-4 py-1 border-gega-red">
+                            <input type="text"
+                                class="opacity-0 group-hover:opacity-100 bg-transparent border-b border-gega-red focus:outline-none w-24 lg:w-44 transition-all duration-500">
+                            <button class="-ml-4 group-hover:ml-0 transition duration-500"><i
+                                    class="fas fa-search group-hover:text-gega-red transition duration-500"></i></button>
+                        </div>
+                    </form>
+                    <!--Signup Area-->
+                    <div class="flex items-center space-x-4 lg:space-x-8 lg:text-lg">
+                        <a href="#" class="">login</a>
+                        <a href="#"
+                            class="bg-gega-red px-3 py-1 hover:bg-rose-600 hover:text-gega-grey cursor-pointer transition duration-500 whitespace-nowrap">Sign
+                            Up</a>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+
 </body>
 
 </html>
