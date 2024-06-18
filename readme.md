@@ -45,4 +45,4 @@ We welcome contributions to the Tailwind Film Project. If you have any ideas, bu
 
 ## License
 
-The Tailwind Film Project is open-source and released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the project as per the terms of the license.
+The Tailwind Film Project is open-source and released under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the project as per the terms of the license. Keep coding...
