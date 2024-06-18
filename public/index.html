@@ -21,9 +21,17 @@
     <link href="./css/styles.css" rel="stylesheet">
 </head>
 
-<body class="font-open">
+<body class="font-open dark">
+
+    <!-- Dark Lıght Toggle -->
+    <div class="absolute top-2 right-2 cursor-pointer">
+        <i class="fas fa-sun text-white p-1" id="sun"></i>
+        <i class="fas fa-moon hidden text-white p-1" id="moon"></i>
+    </div>
+
+    </div>
     <!-- Header Section -->
-    <header class="bg-black py-6 lg:py-12 text-gega-grey uppercase">
+    <header class="dark:bg-black bg-white py-6 lg:py-12 dark:text-gega-grey text-black uppercase">
         <!--Header Container-->
         <div class="container flex items-center justify-between space-x-8 lg:space-x-16">
             <!--Logo-->
@@ -39,6 +47,7 @@
                     <i class="fas fa-search"></i>
                 </button>
             </div>
+
             <!--Navigation-->
             <nav class="hidden md:flex justify-between flex-1">
                 <!--Menu-->
@@ -72,6 +81,7 @@
         </div>
 
     </header>
+
     <!-- Hero Section -->
     <section class="h-96 lg:h-128 group relative">
         <!-- Hero Image -->
@@ -591,6 +601,8 @@
 
         </div>
     </footer>
+
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
