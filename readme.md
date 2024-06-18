@@ -2,7 +2,7 @@
 
 Welcome to the Tailwind Film Project! This project aims to showcase the power and versatility of the Tailwind CSS framework in creating stunning and responsive film websites.
 
-## Table of Contents
+## Table of Contents:
 
 - [Introduction](#introduction)
 - [Features](#features)
